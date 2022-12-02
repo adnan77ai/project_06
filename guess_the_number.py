@@ -1,3 +1,9 @@
+print("Welcome to Guess the Number.")
+print()
+print("Guess a number between 1 and 10 and I will tell you if you are too low, too high, or get it correct.")
+print()
+print("Let's play!")
+
 import random
 count = 0
 my_num = random.randint(1, 10)
